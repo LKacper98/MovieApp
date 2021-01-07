@@ -4,6 +4,11 @@
 
 The project was created using [themoviedb](https://www.themoviedb.org/?language=en) and individual API key. 
 
+It's necessary to log in to the website to get the key.
+
+
+
+
 ### Gif's 💡
 
 ![ezgif com-gif-maker (12)](https://user-images.githubusercontent.com/75754448/103917383-d54dc300-510d-11eb-83fb-98ae7ddf26ed.gif)
