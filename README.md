@@ -6,21 +6,6 @@ The project was created using [themoviedb](https://www.themoviedb.org/?language=
 
 It's necessary to log in to the website to get the key.
 
-### Implementation
-
-* Material
-
-```Kotlin
-    implementation "com.google.android.material:material:1.2.1"
-```
-* Navigation Component
-
-```Kotlin
-    implementation "androidx.navigation:navigation-fragment-ktx:2.3.2"
-    implementation "androidx.navigation:navigation-ui-ktx:2.3.2"
-    ```
-    * Dagger Hilt
-
 ### Gif's 💡
 
 ![ezgif com-gif-maker (12)](https://user-images.githubusercontent.com/75754448/103917383-d54dc300-510d-11eb-83fb-98ae7ddf26ed.gif)
