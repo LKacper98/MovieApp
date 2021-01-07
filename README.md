@@ -6,7 +6,9 @@ The project was created using [themoviedb](https://www.themoviedb.org/?language=
 
 It's necessary to log in to the website to get the key.
 
+####### Implementation
 
+* ggggg
 
 
 ### Gif's 💡
