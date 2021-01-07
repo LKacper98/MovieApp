@@ -1,3 +1,6 @@
 # MovieApp
 
-### Description during ...
+### Hello 👋
+
+The project was created using [themoviedb](https://www.themoviedb.org/?language=en)
+
