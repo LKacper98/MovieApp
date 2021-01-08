@@ -7,6 +7,7 @@ import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.kacper.movieapp.R
 import com.kacper.movieapp.databinding.FragmentPersonDetailsBinding
+import com.kacper.movieapp.model.KnownFor
 import com.kacper.movieapp.model.Person
 import kotlinx.android.synthetic.main.fragment_person_details.*
 
@@ -23,13 +24,16 @@ class DetailsPersonFragment : Fragment(R.layout.fragment_person_details) {
 
         person = arguments?.getSerializable("person_data") as Person?
         _binding = FragmentPersonDetailsBinding.bind(view)
-        var content = ""
-        person?.known_for?.forEach { content += "${it.title}\n" }
-        binding?.acting?.text = content
 
-        var contents = ""
-        person?.known_for?.forEach { contents += "${it.overview}\n" }
-        binding?.original?.text = contents
+        val firstOverview = person?.known_for?.getOrNull(0)
+        val firstConent = "${firstOverview?.title}\n${firstOverview?.overview}"
+
+        val secondOverview = person?.known_for?.getOrNull(1)
+        val secondContent = "${secondOverview?.title}\n${secondOverview?.overview}"
+
+
+
+        binding?.original?.text = "$firstConent\n\n$secondContent"
 
         name_actor.text = person?.name
 

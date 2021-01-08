@@ -11,6 +11,7 @@ import androidx.fragment.app.viewModels
 import androidx.lifecycle.observe
 import androidx.navigation.fragment.findNavController
 import androidx.paging.LoadState
+import androidx.paging.LoadStateAdapter
 import com.kacper.movieapp.R
 import com.kacper.movieapp.databinding.FragmentMovieBinding
 import com.kacper.movieapp.model.Movie
