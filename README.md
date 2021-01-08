@@ -13,8 +13,7 @@ It's necessary to log in to the website to get the key.
 ![ezgif com-gif-maker (13)](https://user-images.githubusercontent.com/75754448/103917691-31184c00-510e-11eb-9e1c-55914c0d7045.gif)
 
 
-![ezgif com-gif-maker (14)](https://user-images.githubusercontent.com/75754448/103918041-9a985a80-510e-11eb-805d-e2a269195dd9.gif)
-
+![ezgif com-gif-maker (15)](https://user-images.githubusercontent.com/75754448/104053005-d86ab100-51ea-11eb-87ce-dd1e98bfa6e7.gif)
 
 
 
